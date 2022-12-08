@@ -1,0 +1,468 @@
+    
+.containerdivlist-a::-webkit-scrollbar {
+    background-color: #1C2333;
+    width: 15px;
+}
+
+.containerdivlist-a::-webkit-scrollbar-thumb {
+    background-color: #2B3245;
+}
+
+.divalunosp {
+    width: 1100px;
+    text-align: center;
+    background-color: #1C2333;
+    padding-top: 50px;
+    border-radius: 10px;
+    position: relative;
+    height:540px;
+}
+.sobrecontainer{
+    width: 95%;
+    background-color: #1C2333;
+    height: 70%;
+}
+.centertop{
+    margin-top: 50px;
+}
+.paragraphSobre{
+    margin-top: 30px;
+    color: white;
+}
+.spansobre{
+    margin-top: 20px;
+}
+.mHeight{
+    height: 100vh;
+}
+.maincontainerprof {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: #0E1525;
+    align-items: center;
+    justify-content: center;
+}
+
+.flexmainprof {
+    width: 100%;
+    display: flex;
+    height: 100%;
+    position: relative;
+}
+
+.fp1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+    position: relative;
+}
+.list-div-a{
+    width: 99.5%;
+    border: 3px solid  #004182;
+    min-height: 69px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.blocoflutu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 100px;
+    background-color: #004182;
+}
+.containerdivlist-a{
+    margin-top: 20px;
+    width: 90%;
+    overflow-x: hidden;
+    height: 225px;
+
+}
+.buttongroup{
+    width:90%;
+    display: flex;
+    margin-top: 10px;
+
+}
+.submitbuttonPf{
+    width: 100%;
+    border: 1px solid #004182;
+    border-radius: 5px ; 
+}
+.editarnota{
+    color: #0079F2;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.blackscreenopacity{
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.511);
+position: absolute;
+top: 0%;
+left: 0;
+justify-content: center;
+align-items: center;
+z-index: 900;
+display: flex;
+}
+.blackscreenopacity2{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.511);
+    position: absolute;
+    top: 0%;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    z-index: 900;
+    display: flex;
+    }
+.divbtng2{
+    width: 100%;
+}
+.menos{
+    overflow: hidden;
+}
+.mais{
+    overflow: visible;
+}
+
+.submitbuttonmais{
+    width: 90%;
+    height: 50px;
+    margin-top: 20px;
+}
+.list-div-a p{
+    font-size: 19px;
+    max-width: 650px;
+}
+.divalunosp{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.headlc{
+    position: absolute;
+    top: 0;
+}
+.specialspan{
+    color: #0079F2;
+}
+.absolutespanqtd{
+    top: 10px;
+    position: absolute;
+    color: white;
+    right: 10px;
+    font-size: 20px;
+}
+.xsvgdiv{
+    width: 25px;
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+    right: 0;
+}
+.xsvgdiv2{
+    width: 25px;
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+    right: 0;
+}
+.xsvgdiv img{
+    filter: invert(34%) sepia(29%) saturate(6488%) hue-rotate(196deg) brightness(97%) contrast(102%);
+
+
+}
+.xsvgdiv2 img{
+    filter: invert(34%) sepia(29%) saturate(6488%) hue-rotate(196deg) brightness(97%) contrast(102%);
+
+
+}
+.floating-box-notas{
+    width: 550px;
+    background: linear-gradient(180deg, #192334 0%, rgb(45, 51, 82) 100%);
+    height: 460px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.h3loginbuscar{
+    max-width: 400px;
+    margin-top: 20px;
+}
+.floatingboxc{
+    width: 90%;
+    position: relative;
+height: 90%;
+}
+.none{
+    display: none;
+}
+.blocka{
+    display: flex;
+}
+.noab::after{
+ position: initial;
+}
+.selectunidade{
+    margin-top: 10px;
+}
+.spanindicador{
+    display: block;
+}
+.inputemails{
+    margin-top: 10px;
+}
+.alunosmc{
+    justify-content: center;
+}
+.alunosmcc{
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+    background-color: #1C2333;
+    min-height: 500px;
+    align-items: center;
+}
+.containeramsc{
+    width: 90%;
+}
+.h3notas{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.logout{
+position: absolute;
+background-color: #0079F2;
+cursor: pointer;
+top: 10px;
+right: 10px;
+width: 150px;
+height: 40px;
+
+}
+.ordernardiv{
+    width: 90%;
+    position: relative;
+    display: grid;
+    height: auto;
+  justify-content: center;
+  /* background-color: RED; */
+  grid-template-columns: repeat(2, 1FR);
+ margin-top: 10px;
+  gap: 10px;
+}
+.ordernardiv form{
+    height: 100%;
+   text-align: center;
+}
+.buttonordem{
+    height: 50px;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #0079F2;
+    font-size: 18px;
+    font-weight: 600;
+}
+.orderarspan{
+    display: inline-block;
+    align-self: flex-start;
+}
+.odv1{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.odv1 div{
+    margin-right: 40px;
+}
+.odv2 div{
+    margin-left: 40px;
+}
+.odv2{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+}
+#alfaradio{
+   margin-left: 5px;
+   margin-top:6px;
+   position: absolute;
+   background-color: #2B3245;
+   font-size: 20px;
+}
+#idradio{
+    margin-left: 5px;
+    margin-top:5px;
+   position: absolute;
+   background-color: #2B3245;
+   font-size: 20px;
+}
+#radioA{
+    margin-left: 5px;
+    margin-top:5px;
+   position: absolute;
+   background-color: #2B3245;
+   font-size: 20px;
+}
+#radioB{
+    margin-left: 5px;
+    margin-top:5px;
+   position: absolute;
+   background-color: #2B3245;
+   font-size: 20px;
+}
+.headlc{
+   height: 60px;
+}
+.errorspan{
+    color: red;
+}
+.expnsb{
+width: 101%;
+}
+@media screen and (max-width:1200px) {
+    .maincc{
+        width: 65%;
+        margin-left: 10px;
+    }
+    
+}
+@media screen and (max-width:1100px) {
+    .alunosmcc{
+        width: 90%;
+    }
+    .divalunosp{
+        width: 90%;
+        height: 450px;
+    }
+}
+@media screen and (max-width:1000px) {
+   
+    .pinfoprof{
+    font-size: 15px !important;
+   }
+   .maincontainerl2{
+    flex-direction: column-reverse;
+    align-items: center;
+   }
+   .ll2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 50%;
+   }
+   .divloginimg{
+    width: 100%;
+    height: 50%;
+   }
+   .divloginimg2{
+    background-size: 50%;
+    background-position: center center;
+
+   }
+   .maincc{
+    margin: 0;
+   }
+}
+
+@media screen and (max-width:800px) {
+    .pinfoprof{
+        font-size: 13px !important;
+       }
+}
+@media screen and (max-width:750px) {
+    .containeramsc td, th{font-size: 13px;}
+    .list-div-a{
+       padding-top: 5px;
+       padding-bottom: 5px;
+
+    }
+.editarnota{
+    font-size: 12px;
+}
+    .list-div-a p{
+        max-width: 300px;
+        font-size: 15px;
+    }
+    .h1profname{
+        font-size: 20px;
+        margin: 0;
+    }
+    .h3profname{
+        font-size: 15px;
+        max-width: 90%;
+    }
+    .containerdivlist-a{
+        margin-top: 30px;
+    }
+    .absolutespanqtd{
+        font-size: 15px;
+    }
+   
+}
+@media screen and (max-width:600px) {
+    .floating-box-notas{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .containeramsc th{font-size: 10px;}
+    .containeramsc td{
+        font-size: 11px;
+    }
+    .logout{
+        width: 100px;
+        font-size: 13px;
+        
+    }
+    
+}
+@media screen and (max-width:500px) {
+    .divloginimg{
+        display: none;
+    }
+    .maincc{
+        width: 70%;
+    }
+    .expnsb{
+        width: 102%;
+    }
+    .list-div-a p{
+        width: 250px;
+        font-size: 13px;
+    }
+   .buttonordem{
+    height: 40px;
+    font-size: 14px;
+    font-weight: 300;
+   }
+}
+@media screen and (max-width:376px) {
+    .divalunosp{
+    margin-top: 60px;
+    }
+}
+@media screen and (max-width:360px) {
+    .alunosmcc{
+        margin-top: 80px;
+    }
+    .h3notas{
+        font-size: 18px;
+    }
+}
