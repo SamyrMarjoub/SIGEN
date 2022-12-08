@@ -1,0 +1,20 @@
+{
+  "homepage": "https://github.com/SamyrMarjoub/SIGEN-FINAL.git", 
+  "dependencies": {
+    "gh": "^2.8.9",
+    "pages": "^0.0.16"
+  },
+  "name": "ceepprojeto",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "coffee-script": "^1.6.3",
+    "mocha": "^1.9.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
